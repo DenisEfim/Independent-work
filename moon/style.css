@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 700px;
     position: relative;
 }
 
@@ -13,11 +13,11 @@
 
 .plane {
     position: absolute;
-    bottom: 250px;
-    left: 180px;
+    bottom: 300px;
+    left: 200px;
     width: 50px;
-    transition: transform 3s ease-in-out;
-    transition-delay: 1s;
+    transition: transform 4s ease-in-out;
+    transition-delay: 4s;
 }
 
 .content:hover .plane {
